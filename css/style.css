@@ -41,3 +41,7 @@ summary{
 ul{
     list-style-image: url("/images/bullet.png");
 }
+
+#random{
+    text-align: center;
+}
