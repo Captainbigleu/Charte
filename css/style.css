@@ -12,6 +12,17 @@ body{
     grid-template-columns: 50% 1fr;
 }
 
+.chapitre{
+    border-radius: 10px;
+    background-color: white;
+    padding: 18px;
+}
+summary{
+    cursor: pointer;
+}
+.click{
+    font-size: 50%
+}
 
 .button{
     grid-column-start: 2;
