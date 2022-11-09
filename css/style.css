@@ -1,13 +1,22 @@
 body{
     background-color: rgb(217, 218, 219);
 }
-#titre{
-    text-align: center;
-
+.header{
     background-color: white;
 }
+#titre{
+    text-align: left;
+}
+.row{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+}
+
 
 .button{
+    grid-column-start: 2;
+    grid-column-end: 3;
+
     border-radius: 5px;
 
     margin: auto;
