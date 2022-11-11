@@ -3,13 +3,8 @@ body{
 }
 .header{
     background-color: white;
-<<<<<<< HEAD
-    position:sticky;
-        top: 0px; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
-=======
     position: sticky;
         top: 0;
->>>>>>> c72f1d759b54c920a0ac96e38c173b42249e4b2f
         z-index: 1;
 }
 #titre{
