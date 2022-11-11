@@ -3,6 +3,9 @@ body{
 }
 .header{
     background-color: white;
+    position:sticky;
+        top: 0px; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+        z-index: 1;
 }
 #titre{
     text-align: left;
